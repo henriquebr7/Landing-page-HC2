@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Candara;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sessao{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background1{
+  background-image: url(../assets/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.moldura{
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 200px;
+}
+
+.info{
+  font-size: 20px;
+  text-shadow: gray;
+  text-shadow: 0.1em 0.2em 0.3em black;
+}
+
+input{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background: #000;
+  color: #fff
+}
+
+form{
+  display: grid;
+  padding-top: 25px;
+}
+
+a:link {
+  color: rgb(255, 94, 0);
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+footer{
+  height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+
